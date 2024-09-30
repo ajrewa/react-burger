@@ -1,0 +1,245 @@
+
+.navbar{
+   position: sticky;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 1;
+}
+@media screen and (max-width: 768px) and (min-width: 320px){
+   .navbar .logo{
+      display: none;
+  }
+}
+ /*this media query for Iphone 14 pro phone */
+ @media screen and (max-width: 431px){
+  .nav{
+      background-color: #195544;
+      justify-content: space-around;
+      align-items: center;
+      margin: auto;
+  }
+  .nav-menu{
+     display: flex;
+     align-items: center;
+     list-style: none;
+     color: rgb(255, 255, 255);
+     font-size: 15px;
+     gap: 25px;
+     font-weight: 300;
+     padding: 10px;
+     margin: 0;
+     justify-content: space-around;
+  }
+  .nav-menu li{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     gap: 3px;
+     cursor: pointer;
+  }
+  .nav-menu hr{
+      border: none;
+      margin: 0;
+      width: 50%;
+      height: 3px;
+      border-radius: 10px;
+      background:#7ad2b9;
+   }
+   .nav button{
+      border: none;
+      background: none;
+      font-size: 20px;
+   }
+   .mobile-menu{
+      display: none;
+   }
+ }
+ @media screen and (max-width: 551px) and (min-width: 431px){
+  .nav{
+   background-color: #195544;
+   margin: 0;
+  }
+  .nav-menu{
+     display: flex;
+     align-items: center;
+     font-size: 20px;
+     gap: 30px;
+     font-weight: 600;
+     padding: 10px;
+     margin: 0;
+     justify-content: space-around;
+  }
+  .nav-menu li{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     gap: 3px;
+     cursor: pointer;
+  }
+  .nav-menu hr{
+      border: none;
+      margin: 0;
+      width: 50%;
+      height: 3px;
+      border-radius: 10px;
+      background:#7ad2b9;
+   }
+   .nav button{
+      border: none;
+      background: none;
+      font-size: 20px;
+   }
+   .mobile-menu{
+      display: none;
+   }
+ }
+   
+
+ @media screen and (max-width: 768px) and (min-width: 550px){
+  .nav{
+      background-color: #195544;
+      justify-content: space-around;
+      align-items: center;
+      margin: auto;
+  }
+  .nav-menu{
+     display: flex;
+     align-items: center;
+     font-size: 25px;
+     gap: 60px;
+     font-weight: 200;
+     padding: 10px;
+     margin: 0;
+     text-align: center;
+     justify-content: space-around;
+  }
+  .nav-menu li{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     gap: 3px;
+     cursor: pointer;
+  }
+  .nav-menu hr{
+      border: none;
+      margin: 0;
+      width: 50%;
+      height: 3px;
+      border-radius: 10px;
+      background:#7ad2b9;
+   }
+   .nav button{
+      border: none;
+      background: none;
+      font-size: 20px;
+   }
+   .mobile-menu{
+      display: none;
+   }
+ }
+ @media screen and (max-width: 900px) and (min-width: 768px){
+  .nav{
+      background-color: #195544;
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      padding: 0 2%;
+      margin: 0;
+  }
+  .navbar .logo{
+      color: aliceblue;
+      font-size: 35px;
+      font-weight: 600;
+  }
+  .nav-menu{
+     display: flex;
+     align-items: center;
+     list-style: none;
+     color: rgb(255, 255, 255);
+     font-size: 20px;
+     gap: 60px;
+     font-weight: 700;
+     margin: 10px;
+  }
+  .nav-menu li{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     gap: 3px;
+     cursor: pointer;
+  }
+  .nav-menu hr{
+      border: none;
+      margin: 0;
+      width: 50%;
+      height: 3px;
+      border-radius: 10px;
+      background:#7ad2b9;
+   }
+   .nav button{
+      border: none;
+      background: none;
+      font-size: 20px;
+   }
+   .mobile-menu{
+      display: none;
+   }
+ }
+
+ @media screen and (max-width: 1440px) and (min-width: 900px){
+  .smallnav{
+     display: none;
+  }
+  .nav{
+      background-color: #195544;
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      padding: 0 2%;
+      margin: 0;
+  }
+  .navbar .logo p{
+      color: aliceblue;
+      font-size: 35px;
+      font-weight: 600;
+      margin: 0;
+  }
+  .nav-menu{
+     display: flex;
+     align-items: center;
+     list-style: none;
+     color: rgb(255, 255, 255);
+     font-size: 20px;
+     gap: 30px;
+     font-weight: 500;
+  }
+  .nav-menu li{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     gap: 3px;
+     cursor: pointer;
+  }
+  
+  .nav-menu hr{
+      border: none;
+      margin: 0;
+      width: 50%;
+      height: 3px;
+      border-radius: 10px;
+      background:#7ad2b9;
+   }
+   .nav button{
+      border: none;
+      background: none;
+      font-size: 20px;
+   }
+   .mobile-menu{
+      display: none;
+   }
+ }

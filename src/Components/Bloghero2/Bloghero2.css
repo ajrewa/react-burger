@@ -1,0 +1,12 @@
+@media screen and (max-width: 1440px) and (min-width: 320px){
+    .Bloghero2{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(135, 201, 165);
+        padding: 10px;
+    }
+    .Bloghero2-bg img{
+        float: right;
+    }
+}

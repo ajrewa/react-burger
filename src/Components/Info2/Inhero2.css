@@ -1,0 +1,27 @@
+.Inhero2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(135, 201, 165);
+}
+.Inhero2 h1{
+    color: rgb(5, 63, 50);
+    font-size: 60px;
+    margin: 50px 0 0 0;
+}
+
+.leftt{
+    padding: 20px 60px;
+}
+.leftt h1{
+    color: rgb(5, 63, 50);
+    font-size: 60px;
+    margin: 25px 0;
+}
+button{
+    background-color: transparent;
+    padding: 10px;
+    margin:0px;
+    border: 1px solid;
+}

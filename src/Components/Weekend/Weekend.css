@@ -1,0 +1,33 @@
+    @media screen and (max-width: 1440px) and (min-width: 320px){
+        .weekend{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background-color: rgb(135, 201, 165);
+        }
+        .weekend-left{
+            padding: 0 10px;
+            padding-top:40px ;
+        }
+        .weekend-left h1{
+            color: rgb(5, 63, 50);
+            font-size: 60px;
+        }
+        .weekend-right{
+            padding: 0 10px;
+            padding-top:40px ;
+        }
+        .weekend hr{
+            width: 200px;
+            height: 6px;
+            border-radius: 10px;
+            background: #252525;
+        }
+        .regularhead{
+            color: #171717;
+            font-size: 50px;
+            font-weight: 600;
+        }
+    
+    }

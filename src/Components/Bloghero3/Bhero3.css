@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) and (min-width: 550px){
+    .Bhero-3-bg{
+        display: none;
+    }
+    .Bhero-3-sm img{
+        float: left;
+    }
+
+    .Bhero-3-sm{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(135, 201, 165);
+        padding: 10px;
+    }
+}

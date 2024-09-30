@@ -1,0 +1,37 @@
+.head{
+    background-color: rgb(135, 201, 165);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.head h1{
+    color: rgb(5, 63, 50);
+    text-align: center;
+    margin: 0;
+    padding: 40px 0 10px 0;
+}
+.head hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: hsl(147, 96%, 21%);
+    margin: 0 519px;
+}
+@media screen and (max-width: 431px){
+    .head h1{
+        color: rgb(5, 63, 50);
+        text-align: center;
+        margin: 0;
+        padding: 20px 0 10px 0;
+        font-size: 25px;
+    }
+    .head hr{
+        width: 100px;
+        height: 6px;
+        border-radius: 10px;
+        background: hsl(147, 96%, 21%);
+        margin: 0 519px;
+    }
+}
